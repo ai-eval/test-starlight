@@ -4,7 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	  site: ' https://ai-eval.github.io/test-starlight',
+	  site: 'https://ai-eval.github.io/test-starlight',
+	  base: '/docs/',
 	  outDir: './docs/',
 	  build: {
 	  assets: '_astro'
